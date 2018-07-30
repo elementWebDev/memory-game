@@ -2,26 +2,42 @@
  * Create a list that holds all of your cards
  */
 
+// array of cards with similar cards next to each other for easier testing
 const icons = [
     'fa-diamond',
-    'fa-paper-plane-o',
-    'fa-anchor',
-    'fa-bolt',
-    'fa-cube',
-    'fa-anchor',
-    'fa-leaf',
-    'fa-bicycle',
     'fa-diamond',
-    'fa-bomb',
-    'fa-leaf',
-    'fa-bomb',
-    'fa-bolt',
-    'fa-bicycle',
     'fa-paper-plane-o',
+    'fa-paper-plane-o',
+    'fa-anchor',
+    'fa-anchor',
+    'fa-bolt',
+    'fa-bolt',
+    'fa-leaf',
+    'fa-leaf',
+    'fa-bicycle',
+    'fa-bicycle',
+    'fa-bomb',
+    'fa-bomb',
+    'fa-cube',
     'fa-cube'
 ];
-// TODO: add fa- to icons
 
+
+const deck = document.querySelector('.deck');
+
+// listen for click
+deck.addEventListener('click', function() {
+    const card = event.target;
+    console.log
+});
+
+// toggle card
+function toggleCard(card) {
+    card.classList.toggle('open');
+    card.classList.toggle('show');
+}
+
+//shuffle(deck);
 /*
  * Display the cards on the page
  *   - shuffle the list of cards using the provided "shuffle" method below
