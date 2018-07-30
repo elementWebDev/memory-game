@@ -1,7 +1,7 @@
 /*
  * Create a list that holds all of your cards
  */
-
+const deck = document.querySelector('.deck');
 // array of cards with similar cards next to each other for easier testing
 const icons = [
     'fa-diamond',
@@ -22,19 +22,20 @@ const icons = [
     'fa-cube'
 ];
 
-
-const deck = document.querySelector('.deck');
+// shuffle();
 
 // listen for click
-deck.addEventListener('click', function() {
-    const card = event.target;
-    console.log
+deck.addEventListener('click', function () {
+    let card = document.querySelectorAll('.card');
+    //const card = event.target;
+    console.log(card);
+    toggleCard();
 });
 
 // toggle card
 function toggleCard(card) {
-    card.classList.toggle('open');
-    card.classList.toggle('show');
+    card.lastElementChild.className.toggle('open');
+    card.lastElementChild.className.toggle('show');
 }
 
 //shuffle(deck);
@@ -47,7 +48,8 @@ function toggleCard(card) {
 
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex;
+    var currentIndex = array.length,
+        temporaryValue, randomIndex;
 
     while (currentIndex !== 0) {
         randomIndex = Math.floor(Math.random() * currentIndex);
