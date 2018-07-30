@@ -2,6 +2,25 @@
  * Create a list that holds all of your cards
  */
 
+const icons = [
+    'fa-diamond',
+    'fa-paper-plane-o',
+    'fa-anchor',
+    'fa-bolt',
+    'fa-cube',
+    'fa-anchor',
+    'fa-leaf',
+    'fa-bicycle',
+    'fa-diamond',
+    'fa-bomb',
+    'fa-leaf',
+    'fa-bomb',
+    'fa-bolt',
+    'fa-bicycle',
+    'fa-paper-plane-o',
+    'fa-cube'
+];
+// TODO: add fa- to icons
 
 /*
  * Display the cards on the page
