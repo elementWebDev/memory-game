@@ -1,6 +1,6 @@
 # Memory Game
 
-<!--
+<--
     courtesy of:
     Project Planning Tutorial
 
@@ -14,8 +14,37 @@
 
 ## (1) cardDeck --> 2
 
-- [ ] holds 16 cards
+- [x] holds 16 cards
 
+<!-- const deck = document.querySelector('.deck');
+
+/* function createCardList(card) {
+    card.document.createElement('ul');
+    card.document.createElement('li');
+    card.document.createElement('i');
+    console.log(card);
+} */
+<!-- /*
+// array of cards with similar icons next to each other for easier testing
+const icons = [
+    'fa-diamond',
+    'fa-diamond',
+    'fa-paper-plane-o',
+    'fa-paper-plane-o',
+    'fa-anchor',
+    'fa-anchor',
+    'fa-bolt',
+    'fa-bolt',
+    'fa-leaf',
+    'fa-leaf',
+    'fa-bicycle',
+    'fa-bicycle',
+    'fa-bomb',
+    'fa-bomb',
+    'fa-cube',
+    'fa-cube'
+];
+ */ -->
 ---
 
 <!-- Step 2 -->
