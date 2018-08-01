@@ -6,24 +6,19 @@
     Prepared by Pascal Meers
     - diagram on last page -
 
-    [memory game resources](https://www.diigo.com/outliner/fii42b/Udacity-Memory-Game-Project-(project-%232)?key=dwj0y5x9cw)
+[memory game resources](https://www.diigo.com/outliner/fii42b/Udacity-Memory-Game-Project-(project-%232)?key=dwj0y5x9cw)
 
     Modified by @taskmaster (Ivan Huddleston - elementWebDev)
 
 <!-- Step 1  -->
 
-## (1) cardDeck --> 2
+## (1) deck --> 2
 
 - [x] holds 16 cards
 
 <!-- const deck = document.querySelector('.deck');
 
-/* function createCardList(card) {
-    card.document.createElement('ul');
-    card.document.createElement('li');
-    card.document.createElement('i');
-    console.log(card);
-} */
+
 <!-- /*
 // array of cards with similar icons next to each other for easier testing
 const icons = [
@@ -57,9 +52,22 @@ create
 - [ ] li
 - [ ] i
 
+<!--
+/* function createCardList(card) {
+    card.document.createElement('ul');
+    card.document.createElement('li');
+    card.document.createElement('i');
+    console.log(card);
+} */
+-->
+
 add class to
 - [ ] i
 - [ ] li
+
+<!--
+    card.document.
+-->
 
 append
 - [ ] i to li
