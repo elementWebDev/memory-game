@@ -74,7 +74,7 @@ append
 - [ ] li to ul
 
 --
-- [ ] eventListener click
+- [x] eventListener click
 
 
 ---
