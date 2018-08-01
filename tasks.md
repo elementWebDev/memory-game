@@ -1,14 +1,15 @@
 # Memory Game
 
-<--
     courtesy of:
     Project Planning Tutorial
 
     Prepared by Pascal Meers
     - diagram on last page -
 
-    Modified by Ivan Huddleston
--->
+    [memory game resources](https://www.diigo.com/outliner/fii42b/Udacity-Memory-Game-Project-(project-%232)?key=dwj0y5x9cw)
+
+    Modified by @taskmaster (Ivan Huddleston - elementWebDev)
+
 
 <!-- Step 1  -->
 
