@@ -1,4 +1,4 @@
-# Memory Game
+# Memory Game Task List
 
     courtesy of:
     Project Planning Tutorial
