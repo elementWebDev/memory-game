@@ -145,8 +145,8 @@ Udacity's Todo
     Array.from(card);
 } */ -->
 
-- [ ] set up the event listener for a card. If a card is clicked:
-- [ ] display the card's symbol (put this functionality in another function that you call from this one)
+- [x] set up the event listener for a card. If a card is clicked:
+- [x] display the card's symbol (put this functionality in another function that you call from this one)
 
 
 - [ ] if the list already has another card, check to see if the two cards match

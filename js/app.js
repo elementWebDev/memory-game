@@ -10,7 +10,6 @@ deck.addEventListener('click', () => {
     if (validCard) {
         openCloseCard(card);
         console.log(card);
-
         // return card;
     }
     playerTurn();
