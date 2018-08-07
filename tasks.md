@@ -140,10 +140,12 @@ Udacity's Todo
 
  - [ ] add the card to a *list* of "open" cards (put this functionality in another function that you call from this one) */
 
-<!-- /* function openCardList() {
+<!-- /*
+function openCardList() {
     openCards = [];
     Array.from(card);
-} */ -->
+}
+*/ -->
 
 - [x] set up the event listener for a card. If a card is clicked:
 - [x] display the card's symbol (put this functionality in another function that you call from this one)
