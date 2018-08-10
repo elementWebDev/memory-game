@@ -2,4 +2,5 @@
 .htmlhintrc
 .stylelintrc
 .eslintrc.json
-snips.md
+.vscode/
+.resrc/

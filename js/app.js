@@ -1,19 +1,31 @@
+// list that holds deck
 const deck = document.querySelector('.deck');
 
-const openCards = [];
+// define card
+const card = document.querySelectorAll('.card li');
+
+// empty array for open cards
+let openCards = [];
 
 // Event listener
-deck.addEventListener('click', () => {
+deck.addEventListener('click', function () {
     const card = event.target;
+
+    //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Array_from_an_Array-like_object_(arguments)
+    openCards = Array.from(document.querySelectorAll('open'));
 
     if (validCard) {
         openCloseCard(card);
-        let openCards = Array.from(this);
+        openCards = openCards.push(card);
         console.log(openCards);
         // return card;
+
+        checkOpen();
+
+        playerTurn();
+        checkMatch();
+
     }
-    playerTurn();
-    checkMatch();
 
 });
 
@@ -31,38 +43,48 @@ function openCloseCard(card) {
     }
 }
 
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Array_from_an_Array-like_object_(arguments)
-// TODO: call this // v-- openCards
-function playerTurn(openCards) {
-    if (openCards.length < 1) {
-        // openCards.From(card);
-        console.log(openCards);
-    } else if (openCards.length === 2) {
-        checkMatch(openCards[0], openCards[1]);
-        openCards.push(card);
-    } else if (openCards < 2) {
-        card++;
-        openCards.push(card);
+function checkMatch(openCards) {
+    if (openCards[0] === openCards[1]) {
+        // toggle match
+        openCards.classList.toggle('match');
+        // remove open and show
+        openCards.classList.toggle('open', false);
+        openCards.classList.toggle('show', false);
     } else {
         openCards = [];
     }
 }
 
-function checkMatch(card, openCards) {
-    if (openCards[0] === openCards[1]) {
-        card.classList.toggle('match');
-    } else {
-        openCards = [];
+function checkOpen(card) {
+    if (card.classList.contains('open')) {
+        console.log('card open');
+        checkMatch();
     }
 }
 
 console.log(openCards);
 
+//
+
+function playerTurn(openCards) {
+    if (openCards.length === 2) {
+        checkMatch();
+        openCards.push(openCards);
+    } else if (openCards < 2) {
+        openCards.push(openCards);
+    } else {
+        openCards = [];
+    }
+}
+
+
+
+
 
 
 // WIP:
-const deckObj = {
-    deck: document.querySelector('.deck');
+/* const deckObj = {
+    deck: document.querySelector('.deck'),
     // if (needed)
     icons: [
         //'fa-diamond',
@@ -96,7 +118,7 @@ const deckObj = {
     }
 
 };
-
+ */
 
 
 

@@ -20,16 +20,22 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Attributions
+## Attributions & Resources
 
 [task list](tasks.md)
 
-courtesy of:
-Project Planning Tutorial
+- Project Planning Tutorial
 
-Prepared by Pascal Meers
-- diagram on last page -
+    - Prepared by Pascal Meers
+    - diagram on last page -
 
-[memory game resources](https://www.diigo.com/outliner/fii42b/Udacity-Memory-Game-Project-(project-%232)?key=dwj0y5x9cw)
+    - [memory game resources](https://www.diigo.com/outliner/fii42b/Udacity-Memory-Game-Project-(project-%232)?key=dwj0y5x9cw)
 
-Modified by @taskmaster (Ivan Huddleston - elementWebDev)
+    - Modified by @taskmaster (Ivan Huddleston - elementWebDev)
+
+- [MDN](https://developer.mozilla.org/en-US/docs/)
+    - [Array like object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Array_from_an_Array-like_object_(arguments))
+    -
+- [w3Schools](https://www.w3schools.com)
+    -
+    -
