@@ -20,11 +20,11 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
-## Attributions & Resources
+## Attributions-Resources
 
 [task list](tasks.md)
 
-- Project Planning Tutorial
+1. Project Planning Tutorial
 
     - Prepared by Pascal Meers
     - diagram on last page -
@@ -33,9 +33,9 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
     - Modified by @taskmaster (Ivan Huddleston - elementWebDev)
 
-- [MDN](https://developer.mozilla.org/en-US/docs/)
+2. [MDN](https://developer.mozilla.org/en-US/docs/)
     - [Array like object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from#Array_from_an_Array-like_object_(arguments))
-    -
-- [w3Schools](https://www.w3schools.com)
-    -
-    -
+
+
+3. [w3Schools](https://www.w3schools.com)
+
